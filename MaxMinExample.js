@@ -1,5 +1,5 @@
 if (process.argv.length < 3) { console.log("Please enter your key."); return;}
-let key = process.argv[2];
+const key = process.argv[2];
 let min = 1;
 let max = 5;
 let value = 0;
