@@ -19,4 +19,9 @@ vlaue = key;
 value < min ? value = min : value > max ? value = max : null;
 
 console.log("A: %s -- value<min ? min : value>max ? max : null",value);
+//Use && and ||
+value = key;
+value = value < min && min || value > max && max || key;
+
+console.log("A: %s -- value < min && min || value > max && max || key",value);
 //
