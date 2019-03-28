@@ -7,5 +7,8 @@ JavaScript 練習，沒有跟隨任何一個明確規範，純粹想到哪寫到
 # DealerAndCompare
 將兩個一維陣列組合成一個一維陣列，
 打亂之後再隨機抽取幾張來比較大小。
+# LogBot
+試作Log紀錄器，依日期分類。
+套件有fs、moment
 # MaxMinExample
 幾個限制最大、最小值的方法。
